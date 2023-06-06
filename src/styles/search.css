@@ -1,0 +1,37 @@
+.search {
+  border: solid 1px #f2f2f2;
+  border-radius: 5px;
+  position: relative;
+  /*   width: 350px; */
+  top: -70px;
+  /*   display: flex;
+  justify-content: flex-end; */
+}
+@media (max-width: 600px) {
+  .search {
+    position: relative;
+
+    top: -24px;
+  }
+
+  .css-15nf1un {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
+    margin-left: 0;
+    width: 50% !important;
+  }
+}
+.css-15nf1un {
+  position: relative;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-right: 16px;
+  margin-left: 0;
+  width: 30%;
+}
+
+.pagination-space {
+  padding: 20px 0px;
+}

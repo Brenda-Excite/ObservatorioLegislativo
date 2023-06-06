@@ -1,0 +1,67 @@
+.tableTexr {
+  white-space: normal !important;
+}
+
+.maginSpace {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 1333px) {
+  .maginSpace {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 1236px) {
+  .maginSpace {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 1171px) {
+  .maginSpace {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+  }
+}
+@media (max-width: 1107px) {
+  .maginSpace {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+  }
+}
+
+.espacio {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: 1550px) {
+  .espacio {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 1rem;
+  }
+  .sombraTable {
+    box-shadow: 0px;
+  }
+  .borderTable {
+    /* border: 1px solid rgb(240, 241, 242); */
+    border: 0px;
+  }
+}
+
+.sombraTable {
+  box-shadow: 6px 20px 10px #e1e1e1;
+}
+.borderTable {
+  /* border: 1px solid rgb(240, 241, 242); */
+  border: 1px solid rgb(0 0 0 / 5%) !important;
+}
